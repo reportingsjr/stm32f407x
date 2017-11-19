@@ -1,0 +1,21 @@
+[package]
+authors = ["Jon Neal <reportingsjr@gmail.com>"]
+categories = ["embedded", "hardware-support", "no-std"]
+description = "Peripheral access API for STM32F407X microcontrollers"
+keywords = ["arm", "cortex-m", "stm32", "svd2rust"]
+license = "MIT OR Apache-2.0"
+name = "stm32f407"
+repository = "https://github.com/reportingsjr/stm32f407x"
+version = "0.1.0"
+
+[dependencies]
+bare-metal = "0.1.1"
+cortex-m = "0.3.1"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.3.0"
+
+[features]
+rt = ["cortex-m-rt"]
