@@ -22555,13 +22555,13 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               <bitWidth>1</bitWidth>
               <enumeratedValues>
                 <enumeratedValue>
-                  <name>Continuous</name>
-                  <description>Counter is not stopped at update event</description>
+                  <name>Disabled</name>
+                  <description>Counter disabled</description>
                   <value>0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>OnePulse</name>
-                  <description>Counter stops counting at the next update event (clearing the CEN bit)</description>
+                  <name>Enabled</name>
+                  <description>Counter enabled</description>
                   <value>1</value>
                 </enumeratedValue>
               </enumeratedValues>
